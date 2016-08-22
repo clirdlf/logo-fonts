@@ -12,7 +12,7 @@ Fonts for use in CLIR + DLF sites.
 
 Link to the stylesheet:
 
-**HTML**
+**HTML (Jekyll)**
 
 ```html
 <link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/style.css">
