@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?n0vsmb');
-  src:  url('fonts/icomoon.eot?n0vsmb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?n0vsmb') format('truetype'),
-    url('fonts/icomoon.woff?n0vsmb') format('woff'),
-    url('fonts/icomoon.svg?n0vsmb#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?8gykkk');
+  src:  url('fonts/icomoon.eot?8gykkk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8gykkk') format('truetype'),
+    url('fonts/icomoon.woff?8gykkk') format('woff'),
+    url('fonts/icomoon.svg?8gykkk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,13 +24,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-NDSA_image_only_transparent_background:before {
+.icon-nasa-logo:before {
   content: "\e900";
 }
 .icon-dlf-logo:before {
   content: "\e901";
 }
-.icon-clir:before {
+.icon-clir-logo:before {
   content: "\e902";
 }
 

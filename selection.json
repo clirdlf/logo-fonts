@@ -16,7 +16,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "NDSA_image_only_transparent_background"
+          "ndsa logo"
         ]
       },
       "attrs": [
@@ -24,9 +24,9 @@
         {}
       ],
       "properties": {
-        "order": 2,
+        "order": 5,
         "id": 2,
-        "name": "NDSA_image_only_transparent_background",
+        "name": "nasa-logo",
         "prevSize": 32,
         "code": 59648
       },
@@ -69,7 +69,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "dlf-logo"
+          "elf logo"
         ]
       },
       "attrs": [
@@ -87,7 +87,7 @@
         {}
       ],
       "properties": {
-        "order": 3,
+        "order": 6,
         "id": 1,
         "name": "dlf-logo",
         "prevSize": 32,
@@ -123,7 +123,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "clir"
+          "clir logo"
         ]
       },
       "attrs": [
@@ -137,9 +137,9 @@
         {}
       ],
       "properties": {
-        "order": 4,
+        "order": 7,
         "id": 0,
-        "name": "clir",
+        "name": "clir-logo",
         "prevSize": 32,
         "code": 59650
       },
