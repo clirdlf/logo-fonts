@@ -88,3 +88,15 @@ the bottom) and then **download** the font.
 Unzip the package and replace the files in this repository.
 
 Be sure to run `gulp` to generate a new minified css file in `dist`.
+
+## Note on fonts
+
+CLIR's logo is a variant of Albertus and DLF's is a variant of Trajan.
+
+[Albertus](https://www.myfonts.com/fonts/mti/albertus/) is a Monotype Foundry font (from 1938!) and I've not yet found a
+good webfont replacement. 
+
+Trajan is an Adobe Foundry font, but [Crimson Text](https://fonts.google.com/specimen/Crimson+Text) works well enough. Good pairings with this font are [Open Sans](https://fonts.google.com/specimen/Open+Sans), [Lato](https://fonts.google.com/specimen/Lato), [Raleway](https://fonts.google.com/specimen/Raleway), [Montserrat](https://fonts.google.com/specimen/Montserrat), and [Roboto](https://fonts.google.com/specimen/Roboto).
+
+We couldn't figure out the original font used for the NDSA logo so we
+just used [Open Sans](https://fonts.google.com/specimen/Open+Sans).
