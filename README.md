@@ -64,6 +64,10 @@ In the HTML
 </p>
 
 <p class="logo">
+  <i class="icon-clir-logo-square clir-color"></i> <span class="clir-font">CLIR</span>
+</p>
+
+<p class="logo">
   <i class="icon-dlf-logo dlf-color"></i> <span class="dlf-font">DLF</span>
 </p>
 
