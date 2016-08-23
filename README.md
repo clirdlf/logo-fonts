@@ -15,12 +15,12 @@ Link to the stylesheet:
 **HTML (Jekyll)**
 
 ```html
-<link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/dist/style.css">
+<link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/style.css">
 ```
 
 **Rails**
 ```erb
-<%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/dist/style.css' %>
+<%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/style.css' %>
 ```
 
 ## The *Hard* Way
