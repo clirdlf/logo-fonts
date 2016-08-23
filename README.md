@@ -23,6 +23,10 @@ Link to the stylesheet:
 <%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/dist/style.css' %>
 ```
 
+## The *Hard* Way
+
+I don't know, [submodule](https://git-scm.com/docs/git-submodule) this or something. Don't do it; it'll break unexpectedly.
+
 ## Usage
 
 This is a self-contained snippet that can be used as a SCSS partial in
