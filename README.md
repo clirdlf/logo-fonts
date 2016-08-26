@@ -9,6 +9,7 @@ You can check out the specifimen sheets for
 
 ## Fonts Available
 
+- `A028` (font weights: 500 and 800)
 - `clir-logo`
 - `dlf-logo`
 - `ndsa-logo`
