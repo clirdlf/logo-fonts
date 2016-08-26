@@ -1,0 +1,5 @@
+#! /usr/local/bin/fontforge
+#
+# From http://stackoverflow.com/questions/13087903/command-line-tool-for-converting-ttf-otf-fonts-to-svg
+Open($1)
+Generate($1:r + ".svg")

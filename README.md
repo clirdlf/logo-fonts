@@ -2,6 +2,11 @@
 
 Fonts for use in CLIR + DLF sites.
 
+You can check out the specifimen sheets for
+
+- [CLIR Replacement Web Font](https://clirdlf.github.io/logo-fonts/clir-font/demo.html)
+- [Logo Fonts](https://clirdlf.github.io/logo-fonts/demo.html)
+
 ## Fonts Available
 
 - `clir-logo`
@@ -15,12 +20,20 @@ Link to the stylesheet:
 **HTML (Jekyll)**
 
 ```html
-<link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/style.css">
+<link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/style.css.min">
+<link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.css.min">
 ```
 
 **Rails**
 ```erb
-<%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/style.css' %>
+<%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/style.css.min' %>
+<%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.css.min' %>
+```
+
+**CSS**
+```css
+@import 'https://clirdlf.github.io/logo-fonts/style.css.min';
+@import 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.css.min';
 ```
 
 ## The *Hard* Way
@@ -39,17 +52,21 @@ $ndsa-blue:     #0165AE;
 $hc-blue:       darken($dlf-blue, 15%);
 
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans';
+@import 'https://clirdlf.github.io/logo-fonts/style.css.min';
+@import 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.css.min';
 
 .clir-color { color: $clir-burgundy; }
-.clir-font { font-family: '', serif; }
+.clir-font  { font-family: 'A028', serif; }
 
-.dlf-font  { font-family: 'Crimson Text', serif; }
+.dlf-font   { font-family: 'Crimson Text', serif; }
 .dlf-color  { color: $dlf-blue; }
 
-.ndsa-font { font-family: 'Open Sans', sans-serif; }
+.ndsa-font  { font-family: 'Open Sans', sans-serif; }
 .ndsa-color { color: $ndsa-blue; }
 
 .hidden-collections-color { color: $hc-blue; }
+.hidden-collections-font  {font-family: 'A028', serif; }
+
 
 .logo {
   font-weight: 700;
@@ -107,3 +124,30 @@ Trajan is an Adobe Foundry font, but [Crimson Text](https://fonts.google.com/spe
 
 We couldn't figure out the original font used for the NDSA logo so we
 just used [Open Sans](https://fonts.google.com/specimen/Open+Sans).
+
+### Generating Webfont for A028
+
+Seriously, don't even try this if you're not on OS X...
+
+Turns out there was a very similiar font to Albertus created for Linux
+called A028 with an AFPL license (by (URW)++ Design & Development). I
+grabbed the TTF from this repo (which has some other great fonts).
+
+https://github.com/greyscalepress/font-specimens
+
+Specifically `font-speciments/fonts/encore_des_fontes_manu/A028`
+
+I converted these to web fonts with FontForge. The filesize isn't huge,
+and I'm shying away form creating a variant of the font that only has
+the 4 letters we need, but it's definately something we could do (but
+probably premature optimization). 
+
+```
+$ brew install ttf2eot ttfautohint fontforge --with-python
+$ npm install
+$ ./convert2svgfont.pe path/to/font.ttf
+```
+
+
+
+
