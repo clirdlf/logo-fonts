@@ -104,15 +104,13 @@ In the HTML
 
 ## Updating
 
-Log on to the [icomoon app](https://icomoon.io/app/#/select) and edit
+- Log on to the [icomoon app](https://icomoon.io/app/#/select) and edit
 the **CLIR+DLF Logos**.
-
-After you get everything set up, click on the **Generate Font** menu (at
+- After you get everything set up, click on the **Generate Font** menu (at
 the bottom) and then **download** the font.
-
-Unzip the package and replace the files in this repository.
-
-Be sure to run `gulp` to generate a new minified css file in `dist`.
+- Unzip the package and replace the files in this repository.
+- Be sure to run `gulp` to generate a new minified css file in `dist`.
+- Right now, just rename this file (`mv dist/style.css style.css.min`)
 
 ## Note on fonts
 
