@@ -120,6 +120,12 @@ CLIR's logo is a variant of Albertus and DLF's is a variant of Trajan.
 
 [Albertus](https://en.wikipedia.org/wiki/Albertus_(typeface)) is a Monotype Foundry font (from the 1930s) and I've not yet found a good (*free*) webfont replacement. Similar fonts include [Lydian](https://www.myfonts.com/fonts/mti/lydian-mt/) and [Friz Quadrata](https://www.myfonts.com/fonts/linotype/friz-quadrata/). In type, this pairs well with Goudy Old Style, but [Sorts Mill Goudy](https://fonts.google.com/specimen/Sorts+Mill+Goudy) is a good replacement.
 
+> So I'm keeping the above here, but I found that (UFW)++ Design and
+> Development created a look-alike font called A028 and released it
+> under an [AFPL license](https://en.wikipedia.org/wiki/Aladdin_Free_Public_License)
+> license. I generated web fonts from the TTF I found and updated this
+> document with the links to these fonts.
+
 Trajan is an Adobe Foundry font, but [Crimson Text](https://fonts.google.com/specimen/Crimson+Text) works well enough. Good pairings with this font are [Open Sans](https://fonts.google.com/specimen/Open+Sans), [Lato](https://fonts.google.com/specimen/Lato), [Raleway](https://fonts.google.com/specimen/Raleway), [Montserrat](https://fonts.google.com/specimen/Montserrat), and [Roboto](https://fonts.google.com/specimen/Roboto).
 
 We couldn't figure out the original font used for the NDSA logo so we
