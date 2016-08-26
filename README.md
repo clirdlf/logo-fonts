@@ -70,7 +70,6 @@ $hc-blue:       darken($dlf-blue, 15%);
 
 
 .logo {
-  font-weight: 700;
   font-size: 22px;
   letter-spacing: 1px;
   margin-bottom: 0;
