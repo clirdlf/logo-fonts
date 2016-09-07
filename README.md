@@ -21,20 +21,20 @@ Link to the stylesheet:
 **HTML (Jekyll)**
 
 ```html
-<link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/style.css.min">
+<link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/style.min.css">
 <link rel="stylesheet" href="https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.min.css">
 ```
 
 **Rails**
 ```erb
 <%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/style.min.css' %>
-<%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.css.min' %>
+<%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.min.css' %>
 ```
 
-**CSS**
+**CSS/SCSS**
 ```css
-@import 'https://clirdlf.github.io/logo-fonts/style.css.min';
-@import 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.css.min';
+@import 'https://clirdlf.github.io/logo-fonts/style.min.css';
+@import 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.min.css';
 ```
 
 ## The *Hard* Way
