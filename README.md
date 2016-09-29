@@ -31,11 +31,25 @@ Link to the stylesheet:
 <%= stylesheet_link_tag 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.min.css' %>
 ```
 
+***WordPress***
+
+```php
+wp_enqueue_style( 'clir-logo-fonts', 'https://rawgit.com/clirdlf/logo-fonts/master/style.min.css');
+wp_enqueue_style( 'clir-fonts', 'https://rawgit.com/clirdlf/logo-fonts/master/clir-font/stylesheet.min.css');
+```
+
 **CSS/SCSS**
 ```css
 @import 'https://clirdlf.github.io/logo-fonts/style.min.css';
 @import 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.min.css';
 ```
+
+**Production CDN***
+
+You can use RawGit CDN to go through MaxCDN for this:
+
+- https://cdn.rawgit.com/clirdlf/logo-fonts/master/style.min.css
+- https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/stylesheet.min.css
 
 ## The *Hard* Way
 
