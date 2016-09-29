@@ -67,8 +67,8 @@ $ndsa-blue:     #0165AE;
 $hc-blue:       darken($dlf-blue, 15%);
 
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans';
-@import 'https://clirdlf.github.io/logo-fonts/style.css.min';
-@import 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.css.min';
+@import 'https://clirdlf.github.io/logo-fonts/style.min.css';
+@import 'https://clirdlf.github.io/logo-fonts/clir-font/stylesheet.min.css';
 
 .clir-color { color: $clir-burgundy; }
 .clir-font  { font-family: 'A028', serif; }
