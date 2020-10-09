@@ -38,6 +38,21 @@ wp_enqueue_style( 'clir-logo-fonts', 'https://rawgit.com/clirdlf/logo-fonts/mast
 wp_enqueue_style( 'clir-fonts', 'https://rawgit.com/clirdlf/logo-fonts/master/clir-font/stylesheet.min.css');
 ```
 
+**Elementor**
+Normal:
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Ext.woff
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Ext.woff2
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Ext.ttf
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Ext.svg
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Ext.eot
+
+Medium:
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Med.woff
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Med.woff2
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Med.ttf
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Med.svg
+https://cdn.rawgit.com/clirdlf/logo-fonts/master/clir-font/A028-Med.eot
+
 **CSS/SCSS**
 ```css
 @import 'https://clirdlf.github.io/logo-fonts/style.min.css';
